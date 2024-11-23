@@ -4,7 +4,7 @@ pipeline {
     tools {nodejs "nodejs"}
 
     environment {
-        GIT_URL = "https://github.com/Soukaina235/projet-ai-front-test.git"
+        GIT_URL = "https://github.com/ia-project-org/react-app.git"
         DOCKER_TAG_NAME = 'latest'
         DOCKER_REGISTRY = 'soukaina915/ai-front'
         DOCKER_REGISTRY_CREDENTIALS_ID = 'soukaina-docker-hub' 
