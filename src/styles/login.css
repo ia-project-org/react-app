@@ -1,7 +1,11 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(130deg, #FBC88E, #67C6CF);
-    overflow: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(130deg, #fbc88e, #67c6cf);
+  overflow: hidden;
+  background-image: url("./src/assets/login-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
