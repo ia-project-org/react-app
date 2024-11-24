@@ -1,7 +1,7 @@
 import './App.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import DashHeader from "./components/dashboard-header.jsx";
-import {Login} from "@mui/icons-material";
+import Login from './pages/login';
 
 function App() {
     const router = createBrowserRouter([
